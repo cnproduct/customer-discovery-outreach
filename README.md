@@ -17,7 +17,7 @@ Place this folder in a Codex skills directory and keep the folder name `customer
 
 ## Automatic updates
 
-Run `scripts/install-auto-publish-task.ps1` once from this checked-out repository. It registers a current-user scheduled task that checks the skill files every five minutes and commits/pushes changes to the configured `origin` branch. Git must already be authenticated. The publisher stages only `SKILL.md`, `README.md`, `.gitignore`, `agents/`, `references/` and `scripts/`; it does not stage CRM exports or other files.
+Run `scripts/install-auto-publish-task.ps1` once from this checked-out repository. It registers a current-user scheduled task that checks the skill files every five minutes and commits/pushes changes to the configured `origin` branch. Git must already be authenticated. The publisher stages only `SKILL.md`, `README.md`, `.gitignore`, `references/` and `scripts/`; it does not stage CRM exports or other files.
 
 To stop automatic publishing, run:
 
