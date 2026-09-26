@@ -1,0 +1,19 @@
+# Local exports, logs, credentials, runtime state and editor files
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+*.log
+.env
+.env.*
+!.env.example
+cookies*
+*token*
+*credential*
+*secret*
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+/agents/openai.yaml
+/scripts/batch-crm-search.mjs
